@@ -1,0 +1,81 @@
+* {
+    font-family: "Barlow", sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #CD192D;
+}
+
+#cabecalho .nav .nav-link {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+    padding: .2em;
+}
+
+.carousel-item img{
+    width: 100vw;
+}
+
+.section-title {
+    font-weight: 800;
+    font-style: italic;
+    color: #CD192D;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+
+}
+.nav-modelos .nav-link {
+    color: #CD192D;
+}
+
+.nav-modelos .nav-link.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-modelos .nav-link:hover{
+    font-weight: bold;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #CD192D;
+}
+
+#contato button {
+    background-color:#CD192D;
+    color: #fff;
+}
+
+.carousel-inner img {
+    height: 900px;
+    width: 100%;  
+    object-fit: cover; 
+}
+
+#eventos .col-md-4 img,
+#cardapio .col-md-3 img {
+    height: 200px; 
+    width: 900%;  
+    object-fit: cover; 
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
